@@ -77,8 +77,6 @@ php artisan register:admin
 
 ### Setting Vue Backend Configuration
 
-- Set serverUrl present at **resource>js>store>index.js**
-
 - Compile NPM
 
 ```

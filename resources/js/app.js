@@ -47,8 +47,4 @@ export  const app = new Vue({
     store,
     vuetify: new Vuetify(),
     router: Router,
-    // created: function() {
-    //     this.baseURL = "http://inventionnepal.test";
-    // }
-
 });

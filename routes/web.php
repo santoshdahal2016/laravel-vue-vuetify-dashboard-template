@@ -33,5 +33,8 @@ Route::namespace('Api')->prefix('api')->name('api.')->group(function () {
     /*User Route*/
     Route::get('/profile/get-me', 'ProfileController@getMe')->name('get.profile');
     Route::post('/profile/change-password', 'ProfileController@changePassword')->name('change.password');
+
+    Route::post('/logout', '\App\Http\Controllers\Auth\LoginController@logout')->name('logout.user');
+
     Route::post('/profile/change-email', 'ProfileController@changeEmail')->name('change.email');
 });

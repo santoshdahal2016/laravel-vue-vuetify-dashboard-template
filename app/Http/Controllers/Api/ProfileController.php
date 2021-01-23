@@ -56,7 +56,7 @@ class ProfileController extends Controller
         }
 
 
-        UserResource::find(Auth::id())->update(['email' => $request->email]);
+        User::find(Auth::id())->update(['email' => $request->email]);
 
         Auth::logout();
         $return = ["status" => "Success",

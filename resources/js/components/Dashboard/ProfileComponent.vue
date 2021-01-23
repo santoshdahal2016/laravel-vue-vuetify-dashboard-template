@@ -153,9 +153,12 @@
                     return new Promise((resolve, reject) => {
 
                         this.$store.dispatch('changeEmail', {'email':this.profile.email} ).then(response => {
-                            console.log(response)
-                            this.$store.dispatch('showSuccessSnackbar', 'Email have been successfully Updated');
-                            this.$router.go(0);
+                            // console.log(response)
+                            this.$store.dispatch('showSuccessSnackbar', 'Email have been successfully Updated').then(response =>{
+                                this.$router.go(0);
+                            }
+                            );
+                            // this.$router.go(0);
 
                         }).catch(error => {
 

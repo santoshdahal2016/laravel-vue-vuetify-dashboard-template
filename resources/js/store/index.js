@@ -12,7 +12,7 @@ export const store = new Vuex.Store({
     state: {
 
         loading: false,
-        serverUrl: 'http://localhost:8000',
+        serverUrl: '',
     },
     mutations: {
 
