@@ -10,7 +10,7 @@
     "watch-poll": "npm run watch -- --watch-poll"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "lodash": "^4.17.15",
     "vee-validate": "^2.2.0",
     "vuetify": "^2.0.17",
@@ -18,7 +18,7 @@
     "webpack-merge": "^4.2.2"
   },
   "devDependencies": {
-    "axios": "^0.19",
+    "axios": "^0.21",
     "bootstrap": "^4.0.0",
     "cross-env": "^5.1",
     "jquery": "^3.2",
